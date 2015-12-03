@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/4.1.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'search',
+1 verbose cli   'express' ]
+2 info using npm@3.4.1
+3 info using node@v4.1.2
+4 silly mapToRegistry name -/all
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry http://registry.npm.taobao.org/
+7 silly mapToRegistry uri http://registry.npm.taobao.org/-/all
+8 info updateIndex /Users/cui/.npm/registry.npm.taobao.org/-/all/.cache.json
+9 verbose makeDirectory /Users/cui/.npm creation not in flight; initializing
+10 silly makeDirectory /Users/cui/.npm uid: 503 gid: 20
+11 warn Building the local index for the first time, please be patient
+12 silly update-index fetching http://registry.npm.taobao.org/-/all
+13 verbose request uri http://registry.npm.taobao.org/-/all
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 9:44:26 PM
+16 verbose request id fd01985191f1d365
+17 http request GET http://registry.npm.taobao.org/-/all
+18 http 200 http://registry.npm.taobao.org/-/all
+19 verbose headers { date: 'Thu, 03 Dec 2015 13:44:28 GMT',
+19 verbose headers   'content-type': 'application/json; charset=utf-8',
+19 verbose headers   'content-length': '4639662',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   etag: '"46cbae-3XsC0XNmzJ0x/rqKzLZfcQ"',
+19 verbose headers   'x-readtime': '2128' }
+20 verbose stack Error: true true: -/all
+20 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+20 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+20 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+20 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+20 verbose stack     at emitTwo (events.js:87:13)
+20 verbose stack     at Request.emit (events.js:172:7)
+20 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+20 verbose stack     at emitOne (events.js:82:20)
+20 verbose stack     at Request.emit (events.js:169:7)
+20 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+21 verbose statusCode 200
+22 verbose cwd /Users/cui/Documents/projects/FirstBlock/src
+23 error Darwin 15.0.0
+24 error argv "/usr/local/Cellar/node/4.1.2/bin/node" "/usr/local/bin/npm" "search" "express"
+25 error node v4.1.2
+26 error npm  v3.4.1
+27 error code E200
+28 error true true: -/all
+29 error If you need help, you may report this error at:
+29 error     <https://github.com/npm/npm/issues>
+30 verbose exit [ 1, true ]

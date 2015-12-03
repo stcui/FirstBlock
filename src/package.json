@@ -1,0 +1,10 @@
+{
+  "name": "docker-hello",
+  "private": true,
+  "version": "0.0.1",
+  "description": "test",
+  "author": "Steven Choi <stcui@me.com>",
+  "dependencies": {
+	"express": "3.2.4"
+  }
+}
