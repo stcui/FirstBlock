@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER stcui
+RUN apt-get -y install nodejs
 RUN apt-get -y install npm
 ADD ../src /var/www/src
 RUN cd /var/www/src; npm install
