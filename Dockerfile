@@ -6,5 +6,4 @@ RUN apt-get -y install npm
 ADD src /var/www/src
 RUN cd /var/www/src; npm install
 EXPOSE 8080
-CMD ["cd", "/var/www/src"]
-CMD ["npm", "start"]
+CMD ["/usr/bin/nodejs", "/var/www/src/server.js"]
